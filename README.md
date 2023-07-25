@@ -1,6 +1,8 @@
 # RollingDuckDB.jl
 __Add Julia to DuckDB [rollfun benchmarks](https://github.com/duckdblabs/db-benchmark/pull/9).__
 
+@bkamins create, edit, alter as you please
+
 ### Approach
 
 - using (all)
