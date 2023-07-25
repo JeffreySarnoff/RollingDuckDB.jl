@@ -1,0 +1,25 @@
+name = "RollingDuckDB"
+uuid = "79b14bf7-b47d-4a0c-acec-4eaa1c5f6b1a"
+authors = ["Bogumił Kamiński and Jeffrey Sarnoff"]
+repo = "https://github.com/JeffreySarnoff/RollingDuckDB.jl.git"
+version = "0.1.0"
+
+[deps]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+VectorizedStatistics = "3b853605-1c98-4422-8364-4bd93ee0529e"
+RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
+
+[compat]
+StatsBase = "0.34, 0.35"
+DataFrames = "1.6"
+VectorizedStatistics = "0.5, 0.6"
+RollingFunctions = "0.7, 0.8"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
